@@ -4,7 +4,7 @@ export default function HeaderComponent() {
     return (
         <>
             <header className='flex border-b border-1 bg-white font-sans min-h-[70px] tracking-wide  w-full z-50 fixed'>
-                <div className='w-full flex flex-wrap items-center justify-center gap-6 px-10 py-3 relative'>
+                <div className='w-full flex flex-wrap items-center justify-center gap-6 px-10 py-0 '>
                     <a href="javascript:void(0)">
                         <img src="https://readymadeui.com/readymadeui.svg" alt="logo" className='w-36' />
                     </a>
