@@ -19,7 +19,6 @@ export default function DevopsPage() {
 
       <section className="grid lg:grid-cols-2">
         <div className="px-10 py-20">
-          <h1>Frontend Development</h1>
           <p>
             Our Frontend engineer are ready to face any challenges and are
             comfortable working with latest technologies and frameworks, like
@@ -50,7 +49,6 @@ export default function DevopsPage() {
         </div>
 
         <div className="px-10 py-20">
-          <h1>Frontend Development</h1>
           <p>
             Our Frontend engineer are ready to face any challenges and are
             comfortable working with latest technologies and frameworks, like
@@ -58,9 +56,9 @@ export default function DevopsPage() {
           </p>
         </div>
       </section>
+
       <section className="grid lg:grid-cols-2">
         <div className="px-10 py-20">
-          <h1>Frontend Development</h1>
           <p>
             Our Frontend engineer are ready to face any challenges and are
             comfortable working with latest technologies and frameworks, like

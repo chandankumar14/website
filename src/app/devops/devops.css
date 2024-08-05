@@ -1,0 +1,7 @@
+.banner-section{
+    background-image: url("../../../public/online-learning.png");
+    background-repeat: none ;
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+}
