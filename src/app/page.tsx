@@ -9,12 +9,12 @@ export default function Home() {
   return (
    
       <>
-      <HomePageBanner />
+      {/* <HomePageBanner />
       <WhoWeArePage />
       <OurValuePage />
       <OurAdvancedFeature />
       <OurServicesPage />
-      <ContactusPage />
+      <ContactusPage /> */}
       </>
    
   );

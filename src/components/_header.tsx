@@ -21,7 +21,7 @@ export default function HeaderComponent() {
                                     data-original="#000000"></path>
                             </svg>
                         </button>
-
+                        
                         <ul
                             className='lg:flex lg:ml-10 lg:gap-x-10 max-lg:space-y-3 max-lg:fixed max-lg:bg-white max-lg:w-2/3 max-lg:min-w-[300px] max-lg:top-0 max-lg:left-0 max-lg:p-4 max-lg:h-full max-lg:shadow-md max-lg:overflow-auto z-50'>
                             <li className='max-lg:border-b max-lg:pb-4 px-3 lg:hidden'>
@@ -30,9 +30,10 @@ export default function HeaderComponent() {
                             </li>
                             <li className='max-lg:border-b max-lg:px-3 max-lg:py-2'><a href='javascript:void(0)'
                                 className='hover:text-[#007bff7c] text-[#007bff] font-bold text-sm block'>Home</a></li>
+
                             <li className='group text-[14px] max-lg:border-b max-lg:px-3 max-lg:py-2 relative'>
                                 <a href='javascript:void(0)'
-                                    className='hover:text-[#007bff] hover:fill-[#007bff] text-gray-500 font-bold text-[15px] block'>Agencies<svg
+                                    className='hover:text-[#007bff] hover:fill-[#007bff] text-gray-500 font-bold text-[15px] block'>Industries<svg
                                         xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" className="ml-1 inline-block"
                                         viewBox="0 0 24 24">
                                         <path
@@ -44,33 +45,18 @@ export default function HeaderComponent() {
                                     className='absolute lg:top-5 max-lg:top-8 -left-6 z-50 flex 
                                     shadow-lg bg-white max-h-0 overflow-hidden group-hover:opacity-100 
                                     group-hover:max-h-[700px] px-8 group-hover:pb-8 group-hover:pt-6 transition-all duration-500'>
-                                    <div className="lg:min-w-[180px] max-lg:min-w-[140px]">
-                                        <h6 className="text-base text-[#007bff] font-bold">USA</h6>
-                                        <ul className='mt-3 pt-3 border-t border-1 space-y-3'>
+                                    <div className="lg:min-w-[250px] max-lg:min-w-[140px]">
+                                       <ul className='mt-3 pt-3 border-t border-1 space-y-3'>
                                             <li className='max-lg:border-b py-1 rounded'><a href='javascript:void(0)'
                                                 className='hover:text-[#007bff] text-gray-500 font-bold text-sm block'>New York</a></li>
                                             <li className='max-lg:border-b py-1 rounded'><a href='javascript:void(0)'
                                                 className='hover:text-[#007bff] text-gray-500 font-bold text-sm block'>San Francisco</a></li>
                                             <li className='max-lg:border-b py-1 rounded'><a href='javascript:void(0)'
                                                 className='hover:text-[#007bff] text-gray-500 font-bold text-sm block'>Houston</a></li>
-                                            <li className='max-lg:border-b py-1 rounded'><a href='javascript:void(0)'
-                                                className='hover:text-[#007bff] text-gray-500 font-bold text-sm block'>Dallas</a></li>
-                                            <li className='max-lg:border-b py-1 rounded'><a href='javascript:void(0)'
-                                                className='hover:text-[#007bff] text-gray-500 font-bold text-sm block'>Philadelphia</a></li>
-                                            <li className='max-lg:border-b py-1 rounded'><a href='javascript:void(0)'
-                                                className='hover:text-[#007bff] text-gray-500 font-bold text-sm block'>San Diego</a></li>
-                                            <li className='max-lg:border-b py-1 rounded'><a href='javascript:void(0)'
-                                                className='hover:text-[#007bff] text-gray-500 font-bold text-sm block'>Atlanta</a></li>
-                                            <li className='max-lg:border-b py-1 rounded'><a href='javascript:void(0)'
-                                                className='hover:text-[#007bff] text-gray-500 font-bold text-sm block'>Austin</a></li>
-                                            <li className='max-lg:border-b py-1 rounded'><a href='javascript:void(0)'
-                                                className='hover:text-[#007bff] text-gray-500 font-bold text-sm block'>Portland</a></li>
-                                            <li className='max-lg:border-b py-1 rounded'><a href='javascript:void(0)'
-                                                className='hover:text-[#007bff] text-gray-500 font-bold text-sm block'>Denver</a></li>
-                                        </ul>
+                                            
+                                           </ul>
                                     </div>
-                                    <div className="lg:min-w-[180px] max-lg:min-w-[140px]">
-                                        <h6 className="text-base text-[#007bff] font-bold">UK</h6>
+                                    <div className="lg:min-w-[250px] max-lg:min-w-[140px]">
                                         <ul className='mt-3 pt-3 border-t border-1 space-y-3'>
                                             <li className='max-lg:border-b py-1 rounded'><a href='javascript:void(0)'
                                                 className='hover:text-[#007bff] text-gray-500 font-bold text-sm block'>London</a></li>
@@ -78,53 +64,24 @@ export default function HeaderComponent() {
                                                 className='hover:text-[#007bff] text-gray-500 font-bold text-sm block'>Bristol</a></li>
                                             <li className='max-lg:border-b py-1 rounded'><a href='javascript:void(0)'
                                                 className='hover:text-[#007bff] text-gray-500 font-bold text-sm block'>Birmingham</a></li>
-                                            <li className='max-lg:border-b py-1 rounded'><a href='javascript:void(0)'
-                                                className='hover:text-[#007bff] text-gray-500 font-bold text-sm block'>Liverpool</a></li>
-                                            <li className='max-lg:border-b py-1 rounded'><a href='javascript:void(0)'
-                                                className='hover:text-[#007bff] text-gray-500 font-bold text-sm block'>Manchester</a></li>
-                                            <li className='max-lg:border-b py-1 rounded'><a href='javascript:void(0)'
-                                                className='hover:text-[#007bff] text-gray-500 font-bold text-sm block'>Glasgow</a></li>
-                                            <li className='max-lg:border-b py-1 rounded'><a href='javascript:void(0)'
-                                                className='hover:text-[#007bff] text-gray-500 font-bold text-sm block'>Edinburgh</a></li>
-                                            <li className='max-lg:border-b py-1 rounded'><a href='javascript:void(0)'
-                                                className='hover:text-[#007bff] text-gray-500 font-bold text-sm block'>Leeds</a></li>
-                                            <li className='max-lg:border-b py-1 rounded'><a href='javascript:void(0)'
-                                                className='hover:text-[#007bff] text-gray-500 font-bold text-sm block'>Leicester</a></li>
-                                            <li className='max-lg:border-b py-1 rounded'><a href='javascript:void(0)'
-                                                className='hover:text-[#007bff] text-gray-500 font-bold text-sm block'>Sheffield</a></li>
-                                        </ul>
+                                            </ul>
                                     </div>
-                                    <div>
-                                        <h6 className="text-base text-[#007bff] font-bold">Canada</h6>
-                                        <ul className='mt-3 pt-3 border-t border-1 space-y-3'>
+                                    <div className="lg:min-w-[250px] max-lg:min-w-[140px]">
+                                      <ul className='mt-3 pt-3 border-t border-1 space-y-3'>
                                             <li className='max-lg:border-b py-1 rounded'><a href='javascript:void(0)'
                                                 className='hover:text-[#007bff] text-gray-500 font-bold text-sm block'>Toronto</a></li>
                                             <li className='max-lg:border-b py-1 rounded'><a href='javascript:void(0)'
                                                 className='hover:text-[#007bff] text-gray-500 font-bold text-sm block'>Calgary</a></li>
                                             <li className='max-lg:border-b py-1 rounded'><a href='javascript:void(0)'
                                                 className='hover:text-[#007bff] text-gray-500 font-bold text-sm block'>Ottawa</a></li>
-                                            <li className='max-lg:border-b py-1 rounded'><a href='javascript:void(0)'
-                                                className='hover:text-[#007bff] text-gray-500 font-bold text-sm block'>Vancouver</a></li>
-                                            <li className='max-lg:border-b py-1 rounded'><a href='javascript:void(0)'
-                                                className='hover:text-[#007bff] text-gray-500 font-bold text-sm block'>Montréal</a></li>
-                                            <li className='max-lg:border-b py-1 rounded'><a href='javascript:void(0)'
-                                                className='hover:text-[#007bff] text-gray-500 font-bold text-sm block'>Edmonton</a></li>
-                                            <li className='max-lg:border-b py-1 rounded'><a href='javascript:void(0)'
-                                                className='hover:text-[#007bff] text-gray-500 font-bold text-sm block'>Winnipeg</a></li>
-                                            <li className='max-lg:border-b py-1 rounded'><a href='javascript:void(0)'
-                                                className='hover:text-[#007bff] text-gray-500 font-bold text-sm block'>Halifax</a></li>
-                                            <li className='max-lg:border-b py-1 rounded'><a href='javascript:void(0)'
-                                                className='hover:text-[#007bff] text-gray-500 font-bold text-sm block'>Victoria</a></li>
-                                            <li className='max-lg:border-b py-1 rounded'><a href='javascript:void(0)'
-                                                className='hover:text-[#007bff] text-gray-500 font-bold text-sm block'>Windsor</a></li>
                                         </ul>
                                     </div>
-                                    
                                 </div>
                             </li>
+
                             <li className='group text-[14px] max-lg:border-b max-lg:px-3 max-lg:py-2 relative'>
                                 <a href='javascript:void(0)'
-                                    className='hover:text-[#007bff] hover:fill-[#007bff] text-gray-500 font-bold text-[15px] block'>Agencies<svg
+                                    className='hover:text-[#007bff] hover:fill-[#007bff] text-gray-500 font-bold text-[15px] block'>Services<svg
                                         xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" className="ml-1 inline-block"
                                         viewBox="0 0 24 24">
                                         <path
@@ -136,33 +93,18 @@ export default function HeaderComponent() {
                                     className='absolute lg:top-5 max-lg:top-8 -left-6 z-50 flex 
                                     shadow-lg bg-white max-h-0 overflow-hidden group-hover:opacity-100 
                                     group-hover:max-h-[700px] px-8 group-hover:pb-8 group-hover:pt-6 transition-all duration-500'>
-                                    <div className="lg:min-w-[180px] max-lg:min-w-[140px]">
-                                        <h6 className="text-base text-[#007bff] font-bold">USA</h6>
-                                        <ul className='mt-3 pt-3 border-t border-1 space-y-3'>
+                                    <div className="lg:min-w-[250px] max-lg:min-w-[140px]">
+                                       <ul className='mt-3 pt-3 border-t border-1 space-y-3'>
                                             <li className='max-lg:border-b py-1 rounded'><a href='javascript:void(0)'
                                                 className='hover:text-[#007bff] text-gray-500 font-bold text-sm block'>New York</a></li>
                                             <li className='max-lg:border-b py-1 rounded'><a href='javascript:void(0)'
                                                 className='hover:text-[#007bff] text-gray-500 font-bold text-sm block'>San Francisco</a></li>
                                             <li className='max-lg:border-b py-1 rounded'><a href='javascript:void(0)'
                                                 className='hover:text-[#007bff] text-gray-500 font-bold text-sm block'>Houston</a></li>
-                                            <li className='max-lg:border-b py-1 rounded'><a href='javascript:void(0)'
-                                                className='hover:text-[#007bff] text-gray-500 font-bold text-sm block'>Dallas</a></li>
-                                            <li className='max-lg:border-b py-1 rounded'><a href='javascript:void(0)'
-                                                className='hover:text-[#007bff] text-gray-500 font-bold text-sm block'>Philadelphia</a></li>
-                                            <li className='max-lg:border-b py-1 rounded'><a href='javascript:void(0)'
-                                                className='hover:text-[#007bff] text-gray-500 font-bold text-sm block'>San Diego</a></li>
-                                            <li className='max-lg:border-b py-1 rounded'><a href='javascript:void(0)'
-                                                className='hover:text-[#007bff] text-gray-500 font-bold text-sm block'>Atlanta</a></li>
-                                            <li className='max-lg:border-b py-1 rounded'><a href='javascript:void(0)'
-                                                className='hover:text-[#007bff] text-gray-500 font-bold text-sm block'>Austin</a></li>
-                                            <li className='max-lg:border-b py-1 rounded'><a href='javascript:void(0)'
-                                                className='hover:text-[#007bff] text-gray-500 font-bold text-sm block'>Portland</a></li>
-                                            <li className='max-lg:border-b py-1 rounded'><a href='javascript:void(0)'
-                                                className='hover:text-[#007bff] text-gray-500 font-bold text-sm block'>Denver</a></li>
-                                        </ul>
+                                            
+                                           </ul>
                                     </div>
-                                    <div className="lg:min-w-[180px] max-lg:min-w-[140px]">
-                                        <h6 className="text-base text-[#007bff] font-bold">UK</h6>
+                                    <div className="lg:min-w-[250px] max-lg:min-w-[140px]">
                                         <ul className='mt-3 pt-3 border-t border-1 space-y-3'>
                                             <li className='max-lg:border-b py-1 rounded'><a href='javascript:void(0)'
                                                 className='hover:text-[#007bff] text-gray-500 font-bold text-sm block'>London</a></li>
@@ -170,50 +112,21 @@ export default function HeaderComponent() {
                                                 className='hover:text-[#007bff] text-gray-500 font-bold text-sm block'>Bristol</a></li>
                                             <li className='max-lg:border-b py-1 rounded'><a href='javascript:void(0)'
                                                 className='hover:text-[#007bff] text-gray-500 font-bold text-sm block'>Birmingham</a></li>
-                                            <li className='max-lg:border-b py-1 rounded'><a href='javascript:void(0)'
-                                                className='hover:text-[#007bff] text-gray-500 font-bold text-sm block'>Liverpool</a></li>
-                                            <li className='max-lg:border-b py-1 rounded'><a href='javascript:void(0)'
-                                                className='hover:text-[#007bff] text-gray-500 font-bold text-sm block'>Manchester</a></li>
-                                            <li className='max-lg:border-b py-1 rounded'><a href='javascript:void(0)'
-                                                className='hover:text-[#007bff] text-gray-500 font-bold text-sm block'>Glasgow</a></li>
-                                            <li className='max-lg:border-b py-1 rounded'><a href='javascript:void(0)'
-                                                className='hover:text-[#007bff] text-gray-500 font-bold text-sm block'>Edinburgh</a></li>
-                                            <li className='max-lg:border-b py-1 rounded'><a href='javascript:void(0)'
-                                                className='hover:text-[#007bff] text-gray-500 font-bold text-sm block'>Leeds</a></li>
-                                            <li className='max-lg:border-b py-1 rounded'><a href='javascript:void(0)'
-                                                className='hover:text-[#007bff] text-gray-500 font-bold text-sm block'>Leicester</a></li>
-                                            <li className='max-lg:border-b py-1 rounded'><a href='javascript:void(0)'
-                                                className='hover:text-[#007bff] text-gray-500 font-bold text-sm block'>Sheffield</a></li>
-                                        </ul>
+                                            </ul>
                                     </div>
-                                    <div>
-                                        <h6 className="text-base text-[#007bff] font-bold">Canada</h6>
-                                        <ul className='mt-3 pt-3 border-t border-1 space-y-3'>
+                                    <div className="lg:min-w-[250px] max-lg:min-w-[140px]">
+                                      <ul className='mt-3 pt-3 border-t border-1 space-y-3'>
                                             <li className='max-lg:border-b py-1 rounded'><a href='javascript:void(0)'
                                                 className='hover:text-[#007bff] text-gray-500 font-bold text-sm block'>Toronto</a></li>
                                             <li className='max-lg:border-b py-1 rounded'><a href='javascript:void(0)'
                                                 className='hover:text-[#007bff] text-gray-500 font-bold text-sm block'>Calgary</a></li>
                                             <li className='max-lg:border-b py-1 rounded'><a href='javascript:void(0)'
                                                 className='hover:text-[#007bff] text-gray-500 font-bold text-sm block'>Ottawa</a></li>
-                                            <li className='max-lg:border-b py-1 rounded'><a href='javascript:void(0)'
-                                                className='hover:text-[#007bff] text-gray-500 font-bold text-sm block'>Vancouver</a></li>
-                                            <li className='max-lg:border-b py-1 rounded'><a href='javascript:void(0)'
-                                                className='hover:text-[#007bff] text-gray-500 font-bold text-sm block'>Montréal</a></li>
-                                            <li className='max-lg:border-b py-1 rounded'><a href='javascript:void(0)'
-                                                className='hover:text-[#007bff] text-gray-500 font-bold text-sm block'>Edmonton</a></li>
-                                            <li className='max-lg:border-b py-1 rounded'><a href='javascript:void(0)'
-                                                className='hover:text-[#007bff] text-gray-500 font-bold text-sm block'>Winnipeg</a></li>
-                                            <li className='max-lg:border-b py-1 rounded'><a href='javascript:void(0)'
-                                                className='hover:text-[#007bff] text-gray-500 font-bold text-sm block'>Halifax</a></li>
-                                            <li className='max-lg:border-b py-1 rounded'><a href='javascript:void(0)'
-                                                className='hover:text-[#007bff] text-gray-500 font-bold text-sm block'>Victoria</a></li>
-                                            <li className='max-lg:border-b py-1 rounded'><a href='javascript:void(0)'
-                                                className='hover:text-[#007bff] text-gray-500 font-bold text-sm block'>Windsor</a></li>
                                         </ul>
                                     </div>
-                                    
                                 </div>
                             </li>
+                        
                             <li className='max-lg:border-b max-lg:px-3 max-lg:py-2'><a href='javascript:void(0)'
                                 className='hover:text-[#007bff] text-gray-500 font-bold text-[15px] block'>Team</a></li>
                             <li className='max-lg:border-b max-lg:px-3 max-lg:py-2'><a href='javascript:void(0)'
@@ -224,6 +137,9 @@ export default function HeaderComponent() {
                                 className='hover:text-[#007bff] text-gray-500 font-bold text-[15px] block'>Partner</a></li>
                             <li className='max-lg:border-b max-lg:px-3 max-lg:py-2'><a href='javascript:void(0)'
                                 className='hover:text-[#007bff] text-gray-500 font-bold text-[15px] block'>Feature</a></li>
+                            <li className='max-lg:border-b max-lg:px-3 max-lg:py-2'><a href='javascript:void(0)'
+                                className='hover:text-[#007bff] text-gray-500 font-bold text-[15px] block'>Feature</a></li>
+                            
                         </ul>
                     </div>
 

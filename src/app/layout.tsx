@@ -22,7 +22,7 @@ export default function RootLayout({
       <body>
       <HeaderComponent />
         {children}
-        <FooterSection />
+        {/* <FooterSection /> */}
         </body>
     </html>
   );
