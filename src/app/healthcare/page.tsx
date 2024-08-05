@@ -7,64 +7,17 @@ const ui_ux = require("../../../public/UIUx.jpg")
 export default function HealthCarePage() {
     return (
         <>
-            <main className="py-20 mb-4  banner-section">
-                <p className="items-center text-center py-36 text-cyan-50">
-                    From dynamic web applications to scalable backend services,
-                    Our web development expertise ensures high-performance solutions
-                    that deliver seamless user experiences, demonstrating our commitment
-                    to leveraging the web's full potential for business growth.
-                </p>
-            </main>
+            <div className="relative bg-gradient-to-r from-purple-900 to-indigo-800 py-16 font-[sans-serif]">
+      <div className="absolute inset-0">
+        <img src="https://readymadeui.com/cardImg.webp" alt="Background Image" className="w-full h-full object-cover opacity-50" />
+      </div>
 
-            <section className="grid lg:grid-cols-2">
-                <div className="px-10 py-20">
-                    <h1>Frontend
-                        Development</h1>
-                    <p>Our Frontend engineer are ready to face any challenges and are comfortable working with latest technologies and frameworks, like JavaScript.</p>
-                </div>
-
-                <div>
-                    <Image src={Frontend} alt=""
-                        className="float-left px-10"
-                        height={500}
-                        width={500} />
-                </div>
-
-            </section>
-
-
-
-            <section className="grid lg:grid-cols-2">
-                <div>
-                    <Image src={backend} alt=""
-                        className="px-10"
-                        height={500}
-                        width={500} />
-                </div>
-
-                <div className="px-10 py-20">
-                    <h1>Frontend
-                        Development</h1>
-                    <p>Our Frontend engineer are ready to face any challenges and are comfortable working with latest technologies and frameworks, like JavaScript.</p>
-
-                </div>
-
-            </section>
-            <section className="grid lg:grid-cols-2">
-                <div className="px-10 py-20">
-                    <h1>Frontend
-                        Development</h1>
-                    <p>Our Frontend engineer are ready to face any challenges and are comfortable working with latest technologies and frameworks, like JavaScript.</p>
-                </div>
-
-                <div>
-                    <Image src={ui_ux} alt=""
-                        className="float-left px-10"
-                        height={500}
-                        width={500} />
-                </div>
-
-            </section>
+      <div className="relative max-w-screen-xl mx-auto px-8 z-10 text-center text-white">
+        <h1 className="text-4xl md:text-5xl font-extrabold leading-tight mb-6">Welcome to Our Premium Service</h1>
+        <p className="text-lg md:text-xl mb-12">Experience excellence like never before with our exclusive products and services.</p>
+        <button type="button" className="bg-indigo-600 hover:bg-indigo-700 text-white text-base tracking-wide px-6 py-3 rounded-full transition duration-300 ease-in-out shadow-lg hover:shadow-xl">Get Started</button>
+      </div>
+    </div>
 
         </>
     )
