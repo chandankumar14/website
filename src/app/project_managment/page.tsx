@@ -5,7 +5,7 @@ const Frontend = require("../../../public/frontEnd.svg")
 const backend = require("../../../public/backend DEvelopment.svg")
 const ui_ux = require("../../../public/UIUx.jpg")
 import "./web.css";
-export default function SecurityPage() {
+export default function ProjectManagementPage() {
     return (
         <>
             <main className="py-20 mb-4  banner-section">
