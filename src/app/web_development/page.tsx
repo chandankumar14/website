@@ -9,10 +9,11 @@ export default function WebDevelopmentPage() {
   return (
     <>
       <section>
-        <div className="relative font-sans before:absolute before:w-full before:h-full before:inset-0 before:bg-black before:opacity-50 before:z-10">
+        <div className="relative font-sans before:absolute 
+        before:w-full before:h-full before:inset-0 before:bg-black before:opacity-50 before:z-10">
           <Image
             src={bgImage}
-            alt="Banner Image"
+           alt="Banner Image"
             className="absolute inset-0 w-full h-full object-cover"
           />
 
@@ -66,14 +67,9 @@ export default function WebDevelopmentPage() {
                   consectetur. Qui elit labore in nisi dolore tempor anim
                   laboris ipsum ad ad consequat id.
                 </p>
-                {/* <button
-                  type="button"
-                  className="px-6 py-2 mt-8 rounded text-white text-sm tracking-wider font-medium outline-none border-2 border-blue-600 bg-blue-600 hover:bg-transparent hover:text-black transition-all duration-300"
-                >
-                  Read More
-                </button> */}
+                
               </div>
-              <hr />
+              
               <div className="max-md:order-1">
                 <h3 className="text-gray-800 text-xl font-bold mb-4">
                   Front End Development
@@ -84,12 +80,7 @@ export default function WebDevelopmentPage() {
                   consectetur. Qui elit labore in nisi dolore tempor anim
                   laboris ipsum ad ad consequat id.
                 </p>
-                {/* <button
-                  type="button"
-                  className="px-6 py-2 mt-8 rounded text-white text-sm tracking-wider font-medium outline-none border-2 border-blue-600 bg-blue-600 hover:bg-transparent hover:text-black transition-all duration-300"
-                >
-                  Read More
-                </button> */}
+                
               </div>
               <div>
                 <Image
@@ -98,6 +89,7 @@ export default function WebDevelopmentPage() {
                   className="w-full object-contain rounded-md shadow-[0_14px_40px_-11px_rgba(93,96,127,0.2)]"
                 />
               </div>
+
             </div>
           </div>
         </div>

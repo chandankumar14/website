@@ -1,22 +1,29 @@
 "use client";
-import OurValuePage from "@/components/home_page_content/our_value";
 import Image from "next/image";
-const Frontend = require("../../../public/frontEnd.svg");
-const backend = require("../../../public/backend DEvelopment.svg");
+const backend = require("../../../public/backend.png");
 const ui_ux = require("../../../public/UIUx.jpg");
-import "./web.css";
 export default function EcommercePage() {
   return (
     <>
-      <main className="py-20 mb-4  banner-section">
-        <p className="items-center text-center py-36 text-cyan-50">
-          From dynamic web applications to scalable backend services, Our web
-          development expertise ensures high-performance solutions that deliver
-          seamless user experiences, demonstrating our commitment to leveraging
-          the web's full potential for business growth.
-        </p>
-      </main>
+    <div className="font-sans bg-gray-500 px-6 py-12 overflow-hidden">
+      <div className="max-w-7xl max-md:max-w-md mx-auto mt-4">
+        <div className="grid md:grid-cols-2 items-center gap-12">
+          <div>
+            <h2 className="text-white lg:text-5xl md:text-4xl text-3xl font-bold mb-4 lg:!leading-[55px]">All your business finances in one app.</h2>
+            <p className="text-white mt-6 text-base leading-relaxed">Explore a curated collection of ready-to-use components and design blocks, empowering you to create stunning, responsive interfaces with ease. Streamline your workflow, amplify your creativity, and discover the future of web development, all at your fingertips.</p>
+            <div className="mt-12">
+              <button type='button'
+                className="bg-white hover:bg-gray-100 transition-all text-gray-800 font-bold text-sm rounded px-5 py-3">Getting Started</button>
+              <a href="javascript:void(0)" className="text-white text-sm font-bold underline sm:ml-6 max-sm:mt-4 max-sm:block whitespace-nowrap">API Documentation</a>
+            </div>
+          </div>
 
+          <div>
+            <img src='https://readymadeui.com/readymadeui_banner.webp' className="shrink-0 w-full h-full md:skew-x-[-22deg] md:-rotate-1 rounded-md object-contain" />
+          </div>
+        </div>
+      </div>
+    </div>
       <section>
         <div className="px-10 py-20">
           <p>

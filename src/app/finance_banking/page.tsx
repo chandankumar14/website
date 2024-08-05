@@ -1,20 +1,33 @@
 "use client"
-import OurValuePage from "@/components/home_page_content/our_value";
 import Image from "next/image"
-const Frontend = require("../../../public/frontEnd.svg")
-const backend = require("../../../public/backend DEvelopment.svg")
+const Frontend = require("../../../public/frontEnd.png")
+const backend = require("../../../public/backend.png")
 const ui_ux = require("../../../public/UIUx.jpg")
-import "./web.css";
+
 export default function FinancePage() {
     return (
         <>
-            <main className="py-20 mb-4  banner-section">
-                <p className="items-center text-center py-36 text-cyan-50">
-                    From dynamic web applications to scalable backend services,
-                    Our web development expertise ensures high-performance solutions
-                    that deliver seamless user experiences, demonstrating our commitment
-                    to leveraging the web's full potential for business growth.
-                </p>
+            <main >
+                <div className="font-sans bg-white py-12 px-4 bg-gradient-to-r from-white via-[#E4FE66] to-[#55F5A3]">
+                    <div className="max-w-7xl max-md:max-w-md mx-auto max-md:text-center">
+                        <h2 className="text-gray-800 lg:text-6xl md:text-5xl text-3xl font-extrabold lg:!leading-[64px] mt-10 md:max-w-4xl">The Most Modern Card Platform for Debit</h2>
+                        <div className="grid md:grid-cols-2 gap-12 mt-6">
+                            <div>
+                                <p className="text-gray-600 text-base leading-relaxed">Explore a curated collection of ready-to-use components and design blocks, empowering you to create stunning, responsive interfaces with ease. Streamline your workflow and discover the future of web development.</p>
+                                <div className="mt-12 flex gap-4 items-center flex-wrap max-md:justify-center">
+                                    <button type='button'
+                                        className="bg-[#55F5A3] hover:bg-green-400 transition-all text-gray-800 font-bold text-sm rounded-full px-6 py-3">Getting Started</button>
+                                    <a href="javascript:void(0)" className="text-gray-800 text-sm font-bold underline max-sm:block whitespace-nowrap">API Documentation</a>
+                                </div>
+
+
+                            </div>
+                            <div>
+                                <img src='https://readymadeui.com/readymadeui_banner.webp' className="shrink-0 w-full h-full rounded-md object-contain" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </main>
 
             <section className="grid lg:grid-cols-2">
