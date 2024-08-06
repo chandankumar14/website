@@ -60,208 +60,22 @@ export default function HeaderComponent() {
                 </Link>
               </li>
 
-              <li className="group text-[14px] max-lg:border-b max-lg:px-3 max-lg:py-2 relative">
-                <a
-                  href="javascript:void(0)"
-                  className="hover:text-[#007bff] hover:fill-[#007bff] text-gray-500 font-bold text-[15px] block"
+              <li className="max-lg:border-b max-lg:px-3 max-lg:py-2">
+                <Link
+                  href="/Industries"
+                  className="hover:text-[#007bff] text-gray-500 font-bold text-sm block"
                 >
                   Industries
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="16px"
-                    height="16px"
-                    className="ml-1 inline-block"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      d="M12 16a1 1 0 0 1-.71-.29l-6-6a1 1 0 0 1 1.42-1.42l5.29 5.3 5.29-5.29a1 1 0 0 1 1.41 1.41l-6 6a1 1 0 0 1-.7.29z"
-                      data-name="16"
-                      data-original="#000000"
-                    />
-                  </svg>
-                </a>
-                <div
-                  className="absolute lg:top-5 max-lg:top-8 -left-6 z-50 flex 
-                    shadow-lg bg-white max-h-0 overflow-hidden group-hover:opacity-100 
-                    group-hover:max-h-[700px] px-8 group-hover:pb-8 group-hover:pt-6 transition-all duration-500"
-                >
-                  <div className="lg:min-w-[250px] max-lg:min-w-[140px]">
-                    <ul className="mt-3 pt-3 border-t border-1 space-y-3">
-                      <li className="max-lg:border-b py-1 rounded">
-                        <Link
-                          href="/education"
-                          className="hover:text-[#007bff] text-gray-500 font-bold text-sm block"
-                        >
-                          Education
-                        </Link>
-                      </li>
-
-                      <li className="max-lg:border-b py-1 rounded">
-                        <Link
-                          href="/finance_banking"
-                          className="hover:text-[#007bff] text-gray-500 font-bold text-sm block"
-                        >
-                          Finance & Banking
-                        </Link>
-                      </li>
-                    </ul>
-                  </div>
-
-                  <div className="lg:min-w-[250px] max-lg:min-w-[140px]">
-                  <ul className="mt-3 pt-3 border-t border-1 space-y-3">
-                      <li className="max-lg:border-b py-1 rounded">
-                        <Link
-                          href="/logistics"
-                          className="hover:text-[#007bff] text-gray-500 font-bold text-sm block"
-                        >
-                          Logistics
-                        </Link>
-                      </li>
-                      <li className="max-lg:border-b py-1 rounded">
-                        <Link
-                          href="/healthcare"
-                          className="hover:text-[#007bff] text-gray-500 font-bold text-sm block"
-                        >
-                          HealthCare
-                        </Link>
-                      </li>
-                    </ul>
-                  </div>
-
-                  <div className="lg:min-w-[250px] max-lg:min-w-[140px]">
-                    <ul className="mt-3 pt-3 border-t border-1 space-y-3">
-                      <li className="max-lg:border-b py-1 rounded">
-                        <Link
-                          href="/telecommunication"
-                          className="hover:text-[#007bff] text-gray-500 font-bold text-sm block"
-                        >
-                          TeleCommunication
-                        </Link>
-                      </li>
-                      <li className="max-lg:border-b py-1 rounded">
-                        <Link
-                          href="/e-commerces"
-                          className="hover:text-[#007bff] text-gray-500 font-bold text-sm block"
-                        >
-                          E-Commerces
-                        </Link>
-                      </li>
-                    </ul>
-                  </div>
-
-                </div>
+                </Link>
               </li>
 
-              <li className="group text-[14px] max-lg:border-b max-lg:px-3 max-lg:py-2 relative">
-                <a
-                  href="javascript:void(0)"
-                  className="hover:text-[#007bff] hover:fill-[#007bff] text-gray-500 font-bold text-[15px] block"
+              <li className="max-lg:border-b max-lg:px-3 max-lg:py-2">
+                <Link
+                  href="/services"
+                  className="hover:text-[#007bff] text-gray-500 font-bold text-sm block"
                 >
                   Services
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="16px"
-                    height="16px"
-                    className="ml-1 inline-block"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      d="M12 16a1 1 0 0 1-.71-.29l-6-6a1 1 0 0 1 1.42-1.42l5.29 5.3 5.29-5.29a1 1 0 0 1 1.41 1.41l-6 6a1 1 0 0 1-.7.29z"
-                      data-name="16"
-                      data-original="#000000"
-                    />
-                  </svg>
-                </a>
-                <div
-                  className="absolute lg:top-5 max-lg:top-8 -left-6 z-50 flex 
-                                    shadow-lg bg-white max-h-0 overflow-hidden group-hover:opacity-100 
-                                    group-hover:max-h-[700px] px-8 group-hover:pb-8 group-hover:pt-6 transition-all duration-500"
-                >
-                  <div className="lg:min-w-[250px] max-lg:min-w-[140px]">
-                    <ul className="mt-3 pt-3 border-t border-1 space-y-3">
-                      <li className="max-lg:border-b py-1 rounded">
-                        <a
-                          href="javascript:void(0)"
-                          className="hover:text-[#007bff] text-gray-500 font-bold text-sm block"
-                        >
-                          New York
-                        </a>
-                      </li>
-                      <li className="max-lg:border-b py-1 rounded">
-                        <a
-                          href="javascript:void(0)"
-                          className="hover:text-[#007bff] text-gray-500 font-bold text-sm block"
-                        >
-                          San Francisco
-                        </a>
-                      </li>
-                      <li className="max-lg:border-b py-1 rounded">
-                        <a
-                          href="javascript:void(0)"
-                          className="hover:text-[#007bff] text-gray-500 font-bold text-sm block"
-                        >
-                          Houston
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
-                  <div className="lg:min-w-[250px] max-lg:min-w-[140px]">
-                    <ul className="mt-3 pt-3 border-t border-1 space-y-3">
-                      <li className="max-lg:border-b py-1 rounded">
-                        <a
-                          href="javascript:void(0)"
-                          className="hover:text-[#007bff] text-gray-500 font-bold text-sm block"
-                        >
-                          London
-                        </a>
-                      </li>
-                      <li className="max-lg:border-b py-1 rounded">
-                        <a
-                          href="javascript:void(0)"
-                          className="hover:text-[#007bff] text-gray-500 font-bold text-sm block"
-                        >
-                          Bristol
-                        </a>
-                      </li>
-                      <li className="max-lg:border-b py-1 rounded">
-                        <a
-                          href="javascript:void(0)"
-                          className="hover:text-[#007bff] text-gray-500 font-bold text-sm block"
-                        >
-                          Birmingham
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
-                  <div className="lg:min-w-[250px] max-lg:min-w-[140px]">
-                    <ul className="mt-3 pt-3 border-t border-1 space-y-3">
-                      <li className="max-lg:border-b py-1 rounded">
-                        <a
-                          href="javascript:void(0)"
-                          className="hover:text-[#007bff] text-gray-500 font-bold text-sm block"
-                        >
-                          Toronto
-                        </a>
-                      </li>
-                      <li className="max-lg:border-b py-1 rounded">
-                        <a
-                          href="javascript:void(0)"
-                          className="hover:text-[#007bff] text-gray-500 font-bold text-sm block"
-                        >
-                          Calgary
-                        </a>
-                      </li>
-                      <li className="max-lg:border-b py-1 rounded">
-                        <a
-                          href="javascript:void(0)"
-                          className="hover:text-[#007bff] text-gray-500 font-bold text-sm block"
-                        >
-                          Ottawa
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
+                </Link>
               </li>
 
               <li className="max-lg:border-b max-lg:px-3 max-lg:py-2">
@@ -272,6 +86,7 @@ export default function HeaderComponent() {
                   Team
                 </a>
               </li>
+
               <li className="max-lg:border-b max-lg:px-3 max-lg:py-2">
                 <a
                   href="javascript:void(0)"
@@ -280,6 +95,7 @@ export default function HeaderComponent() {
                   Contact
                 </a>
               </li>
+
               <li className="max-lg:border-b max-lg:px-3 max-lg:py-2">
                 <a
                   href="javascript:void(0)"

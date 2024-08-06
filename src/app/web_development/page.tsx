@@ -9,11 +9,13 @@ export default function WebDevelopmentPage() {
   return (
     <>
       <section>
-        <div className="relative font-sans before:absolute 
-        before:w-full before:h-full before:inset-0 before:bg-black before:opacity-50 before:z-10">
+        <div
+          className="relative font-sans before:absolute 
+        before:w-full before:h-full before:inset-0 before:bg-black before:opacity-50 before:z-10"
+        >
           <Image
             src={bgImage}
-           alt="Banner Image"
+            alt="Banner Image"
             className="absolute inset-0 w-full h-full object-cover"
           />
 
@@ -67,9 +69,8 @@ export default function WebDevelopmentPage() {
                   consectetur. Qui elit labore in nisi dolore tempor anim
                   laboris ipsum ad ad consequat id.
                 </p>
-                
               </div>
-              
+
               <div className="max-md:order-1">
                 <h3 className="text-gray-800 text-xl font-bold mb-4">
                   Front End Development
@@ -80,7 +81,6 @@ export default function WebDevelopmentPage() {
                   consectetur. Qui elit labore in nisi dolore tempor anim
                   laboris ipsum ad ad consequat id.
                 </p>
-                
               </div>
               <div>
                 <Image
@@ -89,20 +89,18 @@ export default function WebDevelopmentPage() {
                   className="w-full object-contain rounded-md shadow-[0_14px_40px_-11px_rgba(93,96,127,0.2)]"
                 />
               </div>
-
             </div>
           </div>
         </div>
       </section>
-    <hr />
-    <section>
+      <hr />
+      <section>
         <div className="max-w-5xl max-md:max-w-xl mx-auto font-[sans-serif] my-4">
           <div className="mt-16">
             <div className="grid md:grid-cols-2 items-center gap-16">
-             
               <div className="max-md:order-1">
                 <h3 className="text-gray-800 text-xl font-bold mb-4">
-                 UI/UX Design
+                  UI/UX Design
                 </h3>
                 <p className="text-gray-600 text-sm">
                   Qui elit labore in nisi dolore tempor anim laboris ipsum ad ad
@@ -128,7 +126,6 @@ export default function WebDevelopmentPage() {
           </div>
         </div>
       </section>
-
     </>
   );
 }
