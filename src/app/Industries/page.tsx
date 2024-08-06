@@ -1,7 +1,10 @@
-"use client";
-import Router from "next/router";
+"use client ";
+
+import Link from "next/link";
 
 export default function IndustriesPage() {
+  
+
   return (
     <>
       <div className="max-w-7xl mx-auto font-[sans-serif] p-4">
@@ -38,8 +41,9 @@ export default function IndustriesPage() {
             <p className="text-gray-600 text-sm">
               Tailor our product to suit your needs.
             </p>
+            <Link href="/logistics">
             <button
-              onClick={() => Router.push("/logistics")}
+              
               type="button"
               className="border border-gray-300 text-gray-800 px-4 py-2 rounded-md font-semibold flex items-center text-sm mt-6 hover:bg-gray-50"
             >
@@ -58,6 +62,8 @@ export default function IndustriesPage() {
                 ></path>
               </svg>
             </button>
+            </Link>
+           
           </div>
 
           <div className="bg-white text-left border border-gray-300 rounded-md p-6 hover:shadow-md transition-all">
@@ -97,8 +103,9 @@ export default function IndustriesPage() {
             <p className="text-gray-600 text-sm">
               Your data is protected by the latest security measures.
             </p>
+            <Link href="/healthcare">
             <button
-              onClick={() => Router.push("/healthcare")}
+              
               type="button"
               className="border border-gray-300 text-gray-800 px-4 py-2 rounded-md font-semibold flex items-center text-sm mt-6 hover:bg-gray-50"
             >
@@ -117,6 +124,7 @@ export default function IndustriesPage() {
                 ></path>
               </svg>
             </button>
+            </Link>
           </div>
 
           <div className="bg-white text-left border border-gray-300 rounded-md p-6 hover:shadow-md transition-all">
@@ -136,7 +144,9 @@ export default function IndustriesPage() {
             <p className="text-gray-600 text-sm">
               24/7 customer support for all your inquiries.
             </p>
+            <Link href="/security">
             <button
+              
               type="button"
               className="border border-gray-300 text-gray-800 px-4 py-2 rounded-md font-semibold flex items-center text-sm mt-6 hover:bg-gray-50"
             >
@@ -155,6 +165,7 @@ export default function IndustriesPage() {
                 ></path>
               </svg>
             </button>
+            </Link>
           </div>
 
           <div className="bg-white text-left border border-gray-300 rounded-md p-6 hover:shadow-md transition-all">
@@ -184,8 +195,9 @@ export default function IndustriesPage() {
             <p className="text-gray-600 text-sm">
               Experience blazing-fast performance with our product.
             </p>
+            <Link href="/education">
             <button
-              onClick={() => Router.push("/education")}
+              
               type="button"
               className="border border-gray-300 text-gray-800 px-4 py-2 rounded-md font-semibold flex items-center text-sm mt-6 hover:bg-gray-50"
             >
@@ -204,6 +216,7 @@ export default function IndustriesPage() {
                 ></path>
               </svg>
             </button>
+            </Link>
           </div>
 
           <div className="bg-white text-left border border-gray-300 rounded-md p-6 hover:shadow-md transition-all">
@@ -247,8 +260,9 @@ export default function IndustriesPage() {
             <p className="text-gray-600 text-sm">
               Expand your reach with our global network.
             </p>
+            <Link href="/finance_banking">
             <button
-              onClick={() => Router.push("/finance_banking")}
+              
               type="button"
               className="border border-gray-300 text-gray-800 px-4 py-2 rounded-md font-semibold flex items-center text-sm mt-6 hover:bg-gray-50"
             >
@@ -267,6 +281,7 @@ export default function IndustriesPage() {
                 ></path>
               </svg>
             </button>
+            </Link>
           </div>
 
           <div className="bg-white text-left border border-gray-300 rounded-md p-6 hover:shadow-md transition-all">
@@ -298,8 +313,9 @@ export default function IndustriesPage() {
             <p className="text-gray-600 text-sm">
               Seamless communication for your team.
             </p>
+            <Link href="/telecommunication">
             <button
-              onClick={() => Router.push("/IOT")}
+              
               type="button"
               className="border border-gray-300 text-gray-800 px-4 py-2 rounded-md font-semibold flex items-center text-sm mt-6 hover:bg-gray-50"
             >
@@ -318,6 +334,7 @@ export default function IndustriesPage() {
                 ></path>
               </svg>
             </button>
+            </Link>
           </div>
 
           <div className="bg-white text-left border border-gray-300 rounded-md p-6 hover:shadow-md transition-all">
@@ -351,6 +368,7 @@ export default function IndustriesPage() {
             <p className="text-gray-600 text-sm">
               Seamless communication for your team.
             </p>
+            <Link href="/e-commerces">
             <button
               type="button"
               className="border border-gray-300 text-gray-800 px-4 py-2 rounded-md font-semibold flex items-center text-sm mt-6 hover:bg-gray-50"
@@ -370,6 +388,7 @@ export default function IndustriesPage() {
                 ></path>
               </svg>
             </button>
+            </Link>
           </div>
 
           <div className="bg-white text-left border border-gray-300 rounded-md p-6 hover:shadow-md transition-all">
@@ -403,8 +422,9 @@ export default function IndustriesPage() {
             <p className="text-gray-600 text-sm">
               Seamless communication for your team.
             </p>
+            <Link href="/logistics">
             <button
-              onClick={() => Router.push("/telecommunication")}
+              
               type="button"
               className="border border-gray-300 text-gray-800 px-4 py-2 rounded-md font-semibold flex items-center text-sm mt-6 hover:bg-gray-50"
             >
@@ -423,6 +443,7 @@ export default function IndustriesPage() {
                 ></path>
               </svg>
             </button>
+            </Link>
           </div>
 
           <div className="bg-white text-left border border-gray-300 rounded-md p-6 hover:shadow-md transition-all">
@@ -456,8 +477,9 @@ export default function IndustriesPage() {
             <p className="text-gray-600 text-sm">
               Seamless communication for your team.
             </p>
+            <Link href="/automotive">
             <button
-              onClick={() => Router.push("/automotive")}
+              
               type="button"
               className="border border-gray-300 text-gray-800 px-4 py-2 rounded-md font-semibold flex items-center text-sm mt-6 hover:bg-gray-50"
             >
@@ -476,6 +498,7 @@ export default function IndustriesPage() {
                 ></path>
               </svg>
             </button>
+            </Link>
           </div>
         </div>
       </div>
