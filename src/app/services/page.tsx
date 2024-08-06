@@ -1,4 +1,5 @@
 "use client";
+import Router from "next/router";
 
 export default function ServicesPage() {
   return (
@@ -38,6 +39,7 @@ export default function ServicesPage() {
               Tailor our product to suit your needs.
             </p>
             <button
+              onClick={() => Router.push("/web_development")}
               type="button"
               className="border border-gray-300 text-gray-800 px-4 py-2 rounded-md font-semibold flex items-center text-sm mt-6 hover:bg-gray-50"
             >
@@ -89,13 +91,12 @@ export default function ServicesPage() {
                 />
               </g>
             </svg>
-            <h3 className="text-gray-800 text-xl font-semibold mb-3">
-              DevOps
-            </h3>
+            <h3 className="text-gray-800 text-xl font-semibold mb-3">DevOps</h3>
             <p className="text-gray-600 text-sm">
               Your data is protected by the latest security measures.
             </p>
             <button
+              onClick={() => Router.push("/devops")}
               type="button"
               className="border border-gray-300 text-gray-800 px-4 py-2 rounded-md font-semibold flex items-center text-sm mt-6 hover:bg-gray-50"
             >
@@ -134,6 +135,7 @@ export default function ServicesPage() {
               24/7 customer support for all your inquiries.
             </p>
             <button
+              onClick={() => Router.push("/mobile_development")}
               type="button"
               className="border border-gray-300 text-gray-800 px-4 py-2 rounded-md font-semibold flex items-center text-sm mt-6 hover:bg-gray-50"
             >
@@ -182,6 +184,7 @@ export default function ServicesPage() {
               Experience blazing-fast performance with our product.
             </p>
             <button
+              onClick={() => Router.push("/mvp_development")}
               type="button"
               className="border border-gray-300 text-gray-800 px-4 py-2 rounded-md font-semibold flex items-center text-sm mt-6 hover:bg-gray-50"
             >
@@ -237,13 +240,12 @@ export default function ServicesPage() {
                 data-original="#000000"
               />
             </svg>
-            <h3 className="text-gray-800 text-xl font-semibold mb-3">
-             AR-VR
-            </h3>
+            <h3 className="text-gray-800 text-xl font-semibold mb-3">AR-VR</h3>
             <p className="text-gray-600 text-sm">
               Expand your reach with our global network.
             </p>
             <button
+              onClick={() => Router.push("/ar_vr_development")}
               type="button"
               className="border border-gray-300 text-gray-800 px-4 py-2 rounded-md font-semibold flex items-center text-sm mt-6 hover:bg-gray-50"
             >
@@ -296,6 +298,7 @@ export default function ServicesPage() {
               Seamless communication for your team.
             </p>
             <button
+              onClick={() => Router.push("/project_management")}
               type="button"
               className="border border-gray-300 text-gray-800 px-4 py-2 rounded-md font-semibold flex items-center text-sm mt-6 hover:bg-gray-50"
             >
@@ -348,6 +351,7 @@ export default function ServicesPage() {
               Seamless communication for your team.
             </p>
             <button
+              onClick={() => Router.push("/cyber_security")}
               type="button"
               className="border border-gray-300 text-gray-800 px-4 py-2 rounded-md font-semibold flex items-center text-sm mt-6 hover:bg-gray-50"
             >
@@ -367,7 +371,7 @@ export default function ServicesPage() {
               </svg>
             </button>
           </div>
-        
+
           <div className="bg-white text-left border border-gray-300 rounded-md p-6 hover:shadow-md transition-all">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -393,13 +397,12 @@ export default function ServicesPage() {
                 />
               </g>
             </svg>
-            <h3 className="text-gray-800 text-xl font-semibold mb-3">
-              AI-ML
-            </h3>
+            <h3 className="text-gray-800 text-xl font-semibold mb-3">AI-ML</h3>
             <p className="text-gray-600 text-sm">
               Seamless communication for your team.
             </p>
             <button
+              onClick={() => Router.push("/AI")}
               type="button"
               className="border border-gray-300 text-gray-800 px-4 py-2 rounded-md font-semibold flex items-center text-sm mt-6 hover:bg-gray-50"
             >
@@ -446,12 +449,13 @@ export default function ServicesPage() {
               </g>
             </svg>
             <h3 className="text-gray-800 text-xl font-semibold mb-3">
-             Cloud Computing
+              Cloud Computing
             </h3>
             <p className="text-gray-600 text-sm">
               Seamless communication for your team.
             </p>
             <button
+              onClick={() => Router.push("/cloud_computing")}
               type="button"
               className="border border-gray-300 text-gray-800 px-4 py-2 rounded-md font-semibold flex items-center text-sm mt-6 hover:bg-gray-50"
             >
@@ -471,7 +475,6 @@ export default function ServicesPage() {
               </svg>
             </button>
           </div>
-          
         </div>
       </div>
     </>

@@ -13,7 +13,6 @@ export default function HeaderComponent() {
               className="w-36"
             />
           </a>
-
           <div
             id="collapseMenu"
             className="max-lg:hidden lg:!block max-lg:before:fixed max-lg:before:bg-black max-lg:before:opacity-40 max-lg:before:inset-0 max-lg:before:z-50"
@@ -130,7 +129,6 @@ export default function HeaderComponent() {
               </li>
             </ul>
           </div>
-
           <div className="flex items-center ml-auto lg:hidden">
             <button id="toggleOpen">
               <svg

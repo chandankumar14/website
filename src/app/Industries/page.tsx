@@ -1,4 +1,5 @@
 "use client";
+import Router from "next/router";
 
 export default function IndustriesPage() {
   return (
@@ -16,7 +17,6 @@ export default function IndustriesPage() {
         </div>
 
         <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-8 mt-12 max-md:max-w-lg mx-auto">
-
           <div className="bg-white text-left border border-gray-300 rounded-md p-6 hover:shadow-md transition-all">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -33,12 +33,13 @@ export default function IndustriesPage() {
               />
             </svg>
             <h3 className="text-gray-800 text-xl font-semibold mb-3">
-             Logistics
+              Logistics
             </h3>
             <p className="text-gray-600 text-sm">
               Tailor our product to suit your needs.
             </p>
             <button
+              onClick={() => Router.push("/logistics")}
               type="button"
               className="border border-gray-300 text-gray-800 px-4 py-2 rounded-md font-semibold flex items-center text-sm mt-6 hover:bg-gray-50"
             >
@@ -97,6 +98,7 @@ export default function IndustriesPage() {
               Your data is protected by the latest security measures.
             </p>
             <button
+              onClick={() => Router.push("/healthcare")}
               type="button"
               className="border border-gray-300 text-gray-800 px-4 py-2 rounded-md font-semibold flex items-center text-sm mt-6 hover:bg-gray-50"
             >
@@ -129,7 +131,7 @@ export default function IndustriesPage() {
               />
             </svg>
             <h3 className="text-gray-800 text-xl font-semibold mb-3">
-            Security
+              Security
             </h3>
             <p className="text-gray-600 text-sm">
               24/7 customer support for all your inquiries.
@@ -183,6 +185,7 @@ export default function IndustriesPage() {
               Experience blazing-fast performance with our product.
             </p>
             <button
+              onClick={() => Router.push("/education")}
               type="button"
               className="border border-gray-300 text-gray-800 px-4 py-2 rounded-md font-semibold flex items-center text-sm mt-6 hover:bg-gray-50"
             >
@@ -239,12 +242,64 @@ export default function IndustriesPage() {
               />
             </svg>
             <h3 className="text-gray-800 text-xl font-semibold mb-3">
-           Finance And Banking
+              Finance And Banking
             </h3>
             <p className="text-gray-600 text-sm">
               Expand your reach with our global network.
             </p>
             <button
+              onClick={() => Router.push("/finance_banking")}
+              type="button"
+              className="border border-gray-300 text-gray-800 px-4 py-2 rounded-md font-semibold flex items-center text-sm mt-6 hover:bg-gray-50"
+            >
+              Learn more{" "}
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                width="16"
+                className="rotate-90 ml-1.5"
+              >
+                <path
+                  fill="#333"
+                  d="M12.006 1a1 1 0 0 1 .838.463l7 11a1 1 0 0 1-.985 1.527l-3.364-.48a.434.434 0 0 0-.495.43V20c0 1.645-1.355 3-3 3s-3-1.355-3-3v-6.06a.434.434 0 0 0-.495-.43l-3.364.48a1 1 0 0 1-.985-1.527l7-11a1 1 0 0 1 .85-.463z"
+                  data-original="#000000"
+                  paint-order="fill markers stroke"
+                ></path>
+              </svg>
+            </button>
+          </div>
+
+          <div className="bg-white text-left border border-gray-300 rounded-md p-6 hover:shadow-md transition-all">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className="w-12 mb-4 inline-block bg-blue-50 p-3 rounded-full"
+              viewBox="0 0 682.667 682.667"
+            >
+              <defs>
+                <clipPath id="a" clipPathUnits="userSpaceOnUse">
+                  <path d="M0 512h512V0H0Z" data-original="#000000" />
+                </clipPath>
+              </defs>
+              <g
+                fill="none"
+                className="stroke-blue-600"
+                stroke-miterlimit="10"
+                stroke-width="30"
+                clip-path="url(#a)"
+                transform="matrix(1.33 0 0 -1.33 0 682.667)"
+              >
+                <path
+                  d="M226 15v60c0 16.568-13.432 30-30 30H76c-16.568 0-30-13.432-30-30V15Zm-45 165c0-24.853-20.147-45-45-45s-45 20.147-45 45 20.147 45 45 45 45-20.147 45-45ZM466 15v60c0 16.568-13.432 30-30 30H316c-16.568 0-30-13.432-30-30V15Zm-45 165c0-24.853-20.147-45-45-45s-45 20.147-45 45 20.147 45 45 45 45-20.147 45-45Zm-75 167v-50.294L286 347h-60.002L166 296.706V347h-15c-41.421 0-75 33.579-75 75s33.579 75 75 75h210c41.421 0 75-33.579 75-75s-33.579-75-75-75Zm-105 75h30m-90 0h30m90 0h30"
+                  data-original="#000000"
+                />
+              </g>
+            </svg>
+            <h3 className="text-gray-800 text-xl font-semibold mb-3">IOT</h3>
+            <p className="text-gray-600 text-sm">
+              Seamless communication for your team.
+            </p>
+            <button
+              onClick={() => Router.push("/IOT")}
               type="button"
               className="border border-gray-300 text-gray-800 px-4 py-2 rounded-md font-semibold flex items-center text-sm mt-6 hover:bg-gray-50"
             >
@@ -291,111 +346,7 @@ export default function IndustriesPage() {
               </g>
             </svg>
             <h3 className="text-gray-800 text-xl font-semibold mb-3">
-              IOT
-            </h3>
-            <p className="text-gray-600 text-sm">
-              Seamless communication for your team.
-            </p>
-            <button
-              type="button"
-              className="border border-gray-300 text-gray-800 px-4 py-2 rounded-md font-semibold flex items-center text-sm mt-6 hover:bg-gray-50"
-            >
-              Learn more{" "}
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 24 24"
-                width="16"
-                className="rotate-90 ml-1.5"
-              >
-                <path
-                  fill="#333"
-                  d="M12.006 1a1 1 0 0 1 .838.463l7 11a1 1 0 0 1-.985 1.527l-3.364-.48a.434.434 0 0 0-.495.43V20c0 1.645-1.355 3-3 3s-3-1.355-3-3v-6.06a.434.434 0 0 0-.495-.43l-3.364.48a1 1 0 0 1-.985-1.527l7-11a1 1 0 0 1 .85-.463z"
-                  data-original="#000000"
-                  paint-order="fill markers stroke"
-                ></path>
-              </svg>
-            </button>
-          </div>
-
-          <div className="bg-white text-left border border-gray-300 rounded-md p-6 hover:shadow-md transition-all">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              className="w-12 mb-4 inline-block bg-blue-50 p-3 rounded-full"
-              viewBox="0 0 682.667 682.667"
-            >
-              <defs>
-                <clipPath id="a" clipPathUnits="userSpaceOnUse">
-                  <path d="M0 512h512V0H0Z" data-original="#000000" />
-                </clipPath>
-              </defs>
-              <g
-                fill="none"
-                className="stroke-blue-600"
-                stroke-miterlimit="10"
-                stroke-width="30"
-                clip-path="url(#a)"
-                transform="matrix(1.33 0 0 -1.33 0 682.667)"
-              >
-                <path
-                  d="M226 15v60c0 16.568-13.432 30-30 30H76c-16.568 0-30-13.432-30-30V15Zm-45 165c0-24.853-20.147-45-45-45s-45 20.147-45 45 20.147 45 45 45 45-20.147 45-45ZM466 15v60c0 16.568-13.432 30-30 30H316c-16.568 0-30-13.432-30-30V15Zm-45 165c0-24.853-20.147-45-45-45s-45 20.147-45 45 20.147 45 45 45 45-20.147 45-45Zm-75 167v-50.294L286 347h-60.002L166 296.706V347h-15c-41.421 0-75 33.579-75 75s33.579 75 75 75h210c41.421 0 75-33.579 75-75s-33.579-75-75-75Zm-105 75h30m-90 0h30m90 0h30"
-                  data-original="#000000"
-                />
-              </g>
-            </svg>
-            <h3 className="text-gray-800 text-xl font-semibold mb-3">
-             E-Commerces
-            </h3>
-            <p className="text-gray-600 text-sm">
-              Seamless communication for your team.
-            </p>
-            <button
-              type="button"
-              className="border border-gray-300 text-gray-800 px-4 py-2 rounded-md font-semibold flex items-center text-sm mt-6 hover:bg-gray-50"
-            >
-              Learn more{" "}
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 24 24"
-                width="16"
-                className="rotate-90 ml-1.5"
-              >
-                <path
-                  fill="#333"
-                  d="M12.006 1a1 1 0 0 1 .838.463l7 11a1 1 0 0 1-.985 1.527l-3.364-.48a.434.434 0 0 0-.495.43V20c0 1.645-1.355 3-3 3s-3-1.355-3-3v-6.06a.434.434 0 0 0-.495-.43l-3.364.48a1 1 0 0 1-.985-1.527l7-11a1 1 0 0 1 .85-.463z"
-                  data-original="#000000"
-                  paint-order="fill markers stroke"
-                ></path>
-              </svg>
-            </button>
-          </div>
-        
-          <div className="bg-white text-left border border-gray-300 rounded-md p-6 hover:shadow-md transition-all">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              className="w-12 mb-4 inline-block bg-blue-50 p-3 rounded-full"
-              viewBox="0 0 682.667 682.667"
-            >
-              <defs>
-                <clipPath id="a" clipPathUnits="userSpaceOnUse">
-                  <path d="M0 512h512V0H0Z" data-original="#000000" />
-                </clipPath>
-              </defs>
-              <g
-                fill="none"
-                className="stroke-blue-600"
-                stroke-miterlimit="10"
-                stroke-width="30"
-                clip-path="url(#a)"
-                transform="matrix(1.33 0 0 -1.33 0 682.667)"
-              >
-                <path
-                  d="M226 15v60c0 16.568-13.432 30-30 30H76c-16.568 0-30-13.432-30-30V15Zm-45 165c0-24.853-20.147-45-45-45s-45 20.147-45 45 20.147 45 45 45 45-20.147 45-45ZM466 15v60c0 16.568-13.432 30-30 30H316c-16.568 0-30-13.432-30-30V15Zm-45 165c0-24.853-20.147-45-45-45s-45 20.147-45 45 20.147 45 45 45 45-20.147 45-45Zm-75 167v-50.294L286 347h-60.002L166 296.706V347h-15c-41.421 0-75 33.579-75 75s33.579 75 75 75h210c41.421 0 75-33.579 75-75s-33.579-75-75-75Zm-105 75h30m-90 0h30m90 0h30"
-                  data-original="#000000"
-                />
-              </g>
-            </svg>
-            <h3 className="text-gray-800 text-xl font-semibold mb-3">
-             TeleCommunication
+              E-Commerces
             </h3>
             <p className="text-gray-600 text-sm">
               Seamless communication for your team.
@@ -447,12 +398,13 @@ export default function IndustriesPage() {
               </g>
             </svg>
             <h3 className="text-gray-800 text-xl font-semibold mb-3">
-             Automotive
+              TeleCommunication
             </h3>
             <p className="text-gray-600 text-sm">
               Seamless communication for your team.
             </p>
             <button
+              onClick={() => Router.push("/telecommunication")}
               type="button"
               className="border border-gray-300 text-gray-800 px-4 py-2 rounded-md font-semibold flex items-center text-sm mt-6 hover:bg-gray-50"
             >
@@ -472,7 +424,59 @@ export default function IndustriesPage() {
               </svg>
             </button>
           </div>
-          
+
+          <div className="bg-white text-left border border-gray-300 rounded-md p-6 hover:shadow-md transition-all">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className="w-12 mb-4 inline-block bg-blue-50 p-3 rounded-full"
+              viewBox="0 0 682.667 682.667"
+            >
+              <defs>
+                <clipPath id="a" clipPathUnits="userSpaceOnUse">
+                  <path d="M0 512h512V0H0Z" data-original="#000000" />
+                </clipPath>
+              </defs>
+              <g
+                fill="none"
+                className="stroke-blue-600"
+                stroke-miterlimit="10"
+                stroke-width="30"
+                clip-path="url(#a)"
+                transform="matrix(1.33 0 0 -1.33 0 682.667)"
+              >
+                <path
+                  d="M226 15v60c0 16.568-13.432 30-30 30H76c-16.568 0-30-13.432-30-30V15Zm-45 165c0-24.853-20.147-45-45-45s-45 20.147-45 45 20.147 45 45 45 45-20.147 45-45ZM466 15v60c0 16.568-13.432 30-30 30H316c-16.568 0-30-13.432-30-30V15Zm-45 165c0-24.853-20.147-45-45-45s-45 20.147-45 45 20.147 45 45 45 45-20.147 45-45Zm-75 167v-50.294L286 347h-60.002L166 296.706V347h-15c-41.421 0-75 33.579-75 75s33.579 75 75 75h210c41.421 0 75-33.579 75-75s-33.579-75-75-75Zm-105 75h30m-90 0h30m90 0h30"
+                  data-original="#000000"
+                />
+              </g>
+            </svg>
+            <h3 className="text-gray-800 text-xl font-semibold mb-3">
+              Automotive
+            </h3>
+            <p className="text-gray-600 text-sm">
+              Seamless communication for your team.
+            </p>
+            <button
+              onClick={() => Router.push("/automotive")}
+              type="button"
+              className="border border-gray-300 text-gray-800 px-4 py-2 rounded-md font-semibold flex items-center text-sm mt-6 hover:bg-gray-50"
+            >
+              Learn more{" "}
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                width="16"
+                className="rotate-90 ml-1.5"
+              >
+                <path
+                  fill="#333"
+                  d="M12.006 1a1 1 0 0 1 .838.463l7 11a1 1 0 0 1-.985 1.527l-3.364-.48a.434.434 0 0 0-.495.43V20c0 1.645-1.355 3-3 3s-3-1.355-3-3v-6.06a.434.434 0 0 0-.495-.43l-3.364.48a1 1 0 0 1-.985-1.527l7-11a1 1 0 0 1 .85-.463z"
+                  data-original="#000000"
+                  paint-order="fill markers stroke"
+                ></path>
+              </svg>
+            </button>
+          </div>
         </div>
       </div>
     </>
