@@ -1,5 +1,4 @@
 "use client"
-import OurValuePage from "@/components/home_page_content/our_value";
 import Image from "next/image"
 
 

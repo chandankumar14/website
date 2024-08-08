@@ -1,9 +1,5 @@
 "use client"
 import Image from "next/image"
-const Frontend = require("../../../public/frontEnd.png")
-const backend = require("../../../public/backend.png")
-const ui_ux = require("../../../public/UIUx.jpg")
-
 export default function HealthCarePage() {
     return (
         <>
